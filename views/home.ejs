@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>
+                <%= title %>
+        </title>
+        <link rel="stylesheet" type="text/css" href="/style/home.css">
+ 
+   </head> 
+
+   <body>
+       <h1 class="heaing">Contact List</h1>
+<div>
+    
+
+       <ul>
+           <%for(let i of contact_list){%>
+                <li>
+                <div class = "list">
+                    <p><%= i.name %> </p>
+                    <p><%= i.Phone %> </p>
+                </div>
+                 
+                </li>
+            <%}%>
+
+       </ul>
+       </div>
+
+       <form method ="POST" action ="/create-contact">
+           <input type="text" name="name"  placeholder="Name">
+           <input type="number" name="Phone" placeholder="Phone number">
+<br>
+           <button type="submit">Add Contact</button>
+       </form>
+       <script src= "/script/home.js"></script>
+   </body>
+</html>

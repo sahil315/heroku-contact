@@ -1,0 +1,38 @@
+*{
+    text-align: center;
+    
+}
+li{
+    list-style: none;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    padding: 0px 30px;
+    margin-bottom: 3px;
+}
+.list p{
+    font-size: 16px;
+    font-style: oblique;
+    color: darkslategrey;
+
+}
+input{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 15%;
+}
+form{
+    margin-left: 45px;
+}
+button{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background: blanchedalmond;
+    margin-top: 20px;
+}
