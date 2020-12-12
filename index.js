@@ -53,7 +53,7 @@ app.listen(port , function(err){
         console.log('server is not running' ,err);
     }
 
-    console.log('Server is up in port' ${port});
+    console.log('Server is up in port' );
 
 });
 
